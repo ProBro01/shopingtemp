@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav-container{
+    margin: 43px 104px 0px 104px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.nav-links ul{
+    display: flex;
+}
+
+.nav-links ul li{
+    font-weight: bold;
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.login-button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.login-button{
+    font-weight: bold;
+    background-color: #F1EE5A;
+    width: 35%;
+    height: 65%;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 5px;
+}
+
+.main-content{
+    margin: 5% 0px 0px 5%;
+    display: grid;
+    grid-template-columns: 30% 65% 5%;
+}
+
+.main-content-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-info{
+    width: 60%;
+}
+
+.main-info p{
+    padding: 7% 0px;
+}
+
+.main-info h1{
+    font-size: 3em;
+}
+
+.main-content-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-button{
+    background-color: #F5A13A;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.social-media-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.social-media-container ul li {
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.social-media-container ul li a i{
+    color: black;
+}
+
+.button-container{
+    display: grid;
+    grid-template-columns: 40% 10% 50%;
+    column-gap: 30px;
+}
+
+.button-container h5{
+    justify-self: center;
+    align-self: center;
+}
+
+.play-button{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: black;
+    z-index: 1;
+}
+
+.play-button i{
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+}
+
+.details-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 5%;
+    margin: 8% 10% 10% 10%;
+}
+
+.detail-image{
+    height: 50%;
+    width: 40%;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.details img{
+    margin: 5% 0px;
+}
+
+.details p{
+    margin: 5% 0px;
+}
